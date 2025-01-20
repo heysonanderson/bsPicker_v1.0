@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title></title>
+</head>
+<body>
+    <main>
+        <div class="firstcontainer">
+            <ul class="map-changer">
+                <li>
+                    <h3>Bounty</h3>
+                    <ul>
+                        <li><button class="map">canal_grande</button></li>
+                        <li><button class="map">hideout</button></li>
+                        <li><button class="map">shooting_star</button></li>
+                        <li><button class="map">snake_praire</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Brawlball</h3>
+                    <ul>
+                        <li><button class="map">center_stage</button></li>
+                        <li><button class="map">pinball</button></li>
+                        <li><button class="map">sneaky_fields</button></li>
+                        <li><button class="map">triple_dribble</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Gemgrab</h3>
+                    <ul>
+                        <li><button class="map">hard_rock</button></li>
+                        <li><button class="map">last_stop</button></li>
+                        <li><button class="map">swoosh</button></li>
+                        <li><button class="map">undermine</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Heist</h3>
+                    <ul>
+                        <li><button class="map">bridge</button></li>
+                        <li><button class="map">hot_potato</button></li>
+                        <li><button class="map">kaboom_canyon</button></li>
+                        <li><button class="map">safe_zone</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>HotZone</h3>
+                    <ul>
+                        <li><button class="map">dueling_beetles</button></li>
+                        <li><button class="map">open_business</button></li>
+                        <li><button class="map">parallel_plays</button></li>
+                        <li><button class="map">ring_of_fire</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Knockout</h3>
+                    <ul>
+                        <li><button class="map">belles_rock</button></li>
+                        <li><button class="map">flaring_phoenix</button></li>
+                        <li><button class="map">goldarm_gulch</button></li>
+                        <li><button class="map">out_in_the_open</button></li>
+                    </ul>
+                </li>
+            </ul>
+    
+            <div class="brawler-columns-container">
+                <div class="columns-container">
+                    <h3>Team with firstpick</h3>
+                    <div class="brawler-columns blue" id="links"></div>
+                </div>
+                <div class="brawler-stats-container">
+                
+                    <div class="team-container">
+                        <h3>Stats of first team</h3>
+                        <div id="frstpickedplace-team" class="team-placeb"></div>
+                    </div>
+                    <div class="team-container">
+                        <h3>Stats of second team</h3>
+                        <div id="scndpickedplace-team" class="team-placer"></div>
+                    </div>
+                    <div class="winrate-container">
+                        <h3>
+                            First team chance to win
+                        </h3>
+                        <div id="winchance-place"></div>
+                    </div>
+                    <div class="reco-container">
+                        <h3 id="recoh3">
+                            
+                        </h3>
+                        <div id="reco-place" class="reco-placer"></div>
+                    </div>
+                    <div class="reco-container">
+                        <h3 id="unrecoh3">
+                            Low Win Rate brawlers
+                        </h3>
+                        <div id="unreco-place" class="unreco-placer"></div>
+                    </div>
+                </div>
+
+                <div class="columns-container">
+                    <h3>Team that picks second</h3>
+                    <div class="brawler-columns red" id="enemyLinks"></div>
+                </div>
+
+            </div>
+
+            
+        </div>
+       
+    </main>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+<script src="./index.js"></script>
+</html>
