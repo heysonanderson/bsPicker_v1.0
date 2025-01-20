@@ -135,8 +135,8 @@ function addImages(a) {
 
 
             const item = index[i].textContent.toLowerCase().replace(/\s|\.|&/g, '_');
-            const imageUrl = `https://media.brawltime.ninja/brawlers/${item}/avatar.png?size=160`;
-            //const imageUrl = `./Data/brawlers/${item}.png`;
+            //const imageUrl = `https://media.brawltime.ninja/brawlers/${item}/avatar.png?size=160`;
+            const imageUrl = `./Data/brawlers/${item}.png`;
             //fetch(imageUrl)
             //    .then(resp => resp.blob())
             //    .then(blobobject => {
