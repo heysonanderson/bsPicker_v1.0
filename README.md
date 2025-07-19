@@ -10,18 +10,21 @@
 # Установка
 
 1. Клонируйте репозиторий
-
-```https://github.com/heysonanderson/bsPicker_v1.0.git```
-```cd bsPicker_v1.0```
+``` bash
+git clone https://github.com/heysonanderson/bsPicker_v1.0.git
+cd bsPicker_v1.0
+```
 
 2. Запуск локального сервера
 
-## Вариант A: VS Code + Live Server
+Вариант A: VS Code + Live Server
 * Установите расширение Live Server.
 * Откройте index.html и нажмите Go Live в правом нижнем углу.
 
-## Вариант B: Python
-```python -m http.server 8000```
+Вариант B: Python
+``` bash
+python -m http.server 8000
+```
 Откройте http://localhost:8000 в браузере.
 
 # Как пользоваться
